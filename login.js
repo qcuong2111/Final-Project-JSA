@@ -1,5 +1,5 @@
 if (localStorage.getItem("currentUser")) {
-    location.href = "./index.html";
+    location.href = "/html/index.html";
   }
   
   let form = document.querySelector("form");
@@ -11,7 +11,7 @@ if (localStorage.getItem("currentUser")) {
     } else {
       let users = JSON.parse(localStorage.getItem("users"));
   
-      let email = document.getElementById("email");
+      let email = document.getElementById("username");
       let password = document.getElementById("password");
   
       let existingUser = users.find(
@@ -23,7 +23,7 @@ if (localStorage.getItem("currentUser")) {
       if (existingUser) {
         localStorage.setItem("currentUser", JSON.stringify(existingUser));
   
-        location.href = "/index.html";
+        location.href = "/html/index.html";
       } else {
         alert("Email or password is incorrect");
       }

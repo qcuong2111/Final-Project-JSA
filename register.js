@@ -1,14 +1,15 @@
 if (localStorage.getItem("currentUser")) {
-    location.href = "./index.html";
+    location.href = "/html/index.html";
   }
   
   let form = document.querySelector("form");
   form.addEventListener("submit", (e) => {
     e.preventDefault();
   
-    let username = document.getElementById("username").value.trim();
+    let username = document.getElementById("fullname").value.trim();
     let email = document.getElementById("email").value.trim();
     let password = document.getElementById("password").value;
+    let confirm_password = document.getElementById("confirm_password").value
   
     let lowerCaseLetter = /[a-z]/g;
     let upperCaseLetter = /[A-Z]/g;
@@ -49,6 +50,6 @@ if (localStorage.getItem("currentUser")) {
       }
   
       alert("User created successfully, please login");
-      location.href = "./login.html";
+      location.href = "login.html";
     }
   });

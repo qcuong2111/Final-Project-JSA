@@ -20,6 +20,11 @@ header, .navigation {
     left: 10px; /* Adjust this value as needed */
 }
 
+.brand-name{
+    font-size: 16px;
+    font-weight: bold;
+}
+
 .logo small {
     display: block;
     font-size: 0.6em;
@@ -76,7 +81,7 @@ header h1 {
 
 /* Hero Section */
 .hero {
-    background-image: url('https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4659ee058ba34bd2a5d0af500104c17d_9366/Giay_Campus_00s_DJen_HQ8708_01_standard.jpg'); /* Thay ảnh giày của bạn */
+    background-image: url('https://static.zara.net/assets/public/44ca/6eb2/1eb443989fa0/81084e2cde1a/06861416800-p/06861416800-p.jpg?ts=1744705631177&w=1024'); /* Thay ảnh giày của bạn */
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -154,17 +159,67 @@ header h1 {
     background-color: #333;
 }
 
-/* Footer */
-footer {
-    background-color: #1a1a1a;
-    color: #f4f4f4;
-    text-align: center;
-    padding: 20px 0;
-    justify-content: center;
-}
 
-footer a {
-    color: #e60000;
-    text-decoration: none;
+
+
+
+.footer {
+    background: #fff;
+    padding: 2px 20px;
+    border-top: 1px solid #000;
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #000;
+  }
+  
+  .footer-section {
+    flex: 1 1 250px;
+    margin: 10px;
+
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
     font-weight: bold;
-}
+  }
+  
+  .footer-section ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #e91e63;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 5px;
+  }

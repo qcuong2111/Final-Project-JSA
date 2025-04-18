@@ -1,0 +1,193 @@
+.navigation {
+  display: flex;
+  justify-content: center; /* Change from space-between to center */
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+header, .navigation {
+  width: 80%; /* Or any width that works for your design */
+  margin: 0 auto; /* This centers the container */
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333; /* Dark text color for the logo */
+  position: absolute;
+  top: 10px; /* Adjust this value as needed */
+  left: 10px; /* Adjust this value as needed */
+}
+
+.brand-name{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.logo small {
+  display: block;
+  font-size: 0.6em;
+  font-weight: normal;
+  color: #777;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Arrange links horizontally */
+}
+
+.nav-links li {
+  margin-left: 20px; /* Space between navigation links */
+}
+
+.nav-links li:first-child {
+  margin-left: 0; /* Remove left margin for the first link */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* Dark text color for links */
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+.nav-links a:hover {
+  color: #007bff; /* Change color on hover (optional) */
+}
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f8f8f8;
+    padding: 20px;
+  }
+  .product-container {
+    background: #000;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .product-price {
+    color: #e91e63;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .product-description {
+    color: #000;
+    margin-bottom: 15px;
+  }
+  .product-rating {
+    font-size: 14px;
+    color: #000;
+  }
+  .product-detail {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  .product-image-large {
+    width: 300px;
+    object-fit: contain;
+  }
+  .related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+    text-decoration: none;
+  }
+  .related-grid .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+   
+  }
+  .related-grid img {
+    height: 120px;
+    object-fit: contain;
+  }
+  .related-grid .title {
+    font-size: 14px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #000;
+  }
+  .related-grid .price {
+    color: #e91e63;
+  }
+  .footer {
+    background: #fff;
+    padding: 2px 20px;
+    border-top: 1px solid #000;
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #000;
+  }
+  
+  .footer-section {
+    flex: 1 1 250px;
+    margin: 10px;
+
+  }
+  
+  .footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .footer-section ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #e91e63;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    padding: 5px;
+  }
